@@ -1,10 +1,25 @@
+" POWERLINE
+set guifont=Menlo\ for\ Powerline:h12
+
+" Change spelling highlight options
+highlight SpellBad term=underline gui=undercurl guisp=Orange
+
 " MacVim
 if has("gui_macvim")
   " Fullscreen takes up entire screen
   set fuoptions=maxhorz,maxvert
 
-  " Hide Top Bar
+  " Hide Top Bar and other UI cruft
   set guioptions-=T
+  set guioptions-=T
+  set guioptions-=l
+  set guioptions-=L
+  set guioptions-=r
+  set guioptions-=R
+
+  " Different cursors for different modes.
+  set guicursor=n-c:block-Cursor-blinkon0
+  set guicursor+=v:block-vCursor-blinkon0
 
   " Command-T for CommandT
   macmenu &File.New\ Tab key = <nop>
@@ -21,3 +36,4 @@ if has("gui_macvim")
   vmap <D-]> >gv
   vmap <D-[> <gv
 endif
+

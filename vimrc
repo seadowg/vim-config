@@ -183,32 +183,8 @@ set number
 " Always show the ruler in the status bar.
 set ruler
 
-if has('gui_running')
-    set guifont=Menlo\ for\ Powerline:h12
-
-    " Remove all the UI cruft
-    set go-=T
-    set go-=l
-    set go-=L
-    set go-=r
-    set go-=R
-
-    highlight SpellBad term=underline gui=undercurl guisp=Orange
-
-    " Different cursors for different modes.
-    set guicursor=n-c:block-Cursor-blinkon0
-    set guicursor+=v:block-vCursor-blinkon0
-
-    if has("gui_macvim")
-        " Full screen means FULL screen
-        set fuoptions=maxvert,maxhorz
-        set mousehide
-    else
-        " Non-MacVim GUI, like Gvim
-    end
-else
-  set mouse=a
-endif
+" Fix the mouse in the console.
+set mouse=a
 
 " Indent
 set tabstop=4
