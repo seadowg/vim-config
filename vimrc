@@ -58,9 +58,6 @@ Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-ruby/vim-ruby'
 
-" Colours
-Bundle 'altercation/vim-colors-solarized'
-
 
 set encoding=utf-8
 set scrolloff=5
@@ -175,7 +172,7 @@ syntax on
 
 " Vim Theme
 set background=dark
-colorscheme solarized
+colorscheme base16-tomorrow
 
 " Turns on line numbering.
 set number
