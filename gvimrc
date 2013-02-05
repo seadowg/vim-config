@@ -1,5 +1,5 @@
 " POWERLINE
-set guifont=Menlo\ for\ Powerline:h12
+set guifont=Monaco:h14
 
 " Change spelling highlight options
 highlight SpellBad term=underline gui=undercurl guisp=Orange
