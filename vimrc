@@ -188,6 +188,7 @@ set tabstop=4
 set smarttab
 set shiftwidth=4
 set autoindent
+:set expandtab
 
 " Keybindings
 " Make C-e and C-y scroll faster.
