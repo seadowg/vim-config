@@ -1,5 +1,5 @@
 " POWERLINE
-set guifont=Monaco:h14
+set guifont=Monaco:h13
 
 " Change spelling highlight options
 highlight SpellBad term=underline gui=undercurl guisp=Orange
@@ -20,10 +20,6 @@ if has("gui_macvim")
   " Different cursors for different modes.
   set guicursor=n-c:block-Cursor-blinkon0
   set guicursor+=v:block-vCursor-blinkon0
-
-  " Command-T for CommandT
-  macmenu &File.New\ Tab key = <nop>
-  map <D-t> :CtrlPMixed<cr>
 
   " Command-F for Ack
   macmenu Window.Toggle\ Full\ Screen\ Mode key = <nop>

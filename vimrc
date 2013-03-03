@@ -17,7 +17,6 @@ let Tlist_GainFocus_On_ToggleOpen=1
 let g:Powerline_symbols = 'fancy'
 
 " Ctrl-p
-let g:ctrlp_map = '<c-t>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
@@ -57,7 +56,6 @@ Bundle 'tpope/vim-rvm'
 Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-ruby/vim-ruby'
-
 
 set encoding=utf-8
 set scrolloff=5
