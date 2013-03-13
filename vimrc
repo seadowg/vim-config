@@ -56,6 +56,7 @@ Bundle 'tpope/vim-rvm'
 Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'derekwyatt/vim-scala'
 
 set encoding=utf-8
 set scrolloff=5
