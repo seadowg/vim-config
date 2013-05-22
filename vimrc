@@ -214,27 +214,6 @@ vnoremap k gk
 imap <D-Return> <ESC>o
 nmap <D-Return> o<ESC>
 
-" OLD HABITS. ELIMINATE THEM.
-map <up>       <nop>
-map <down>     <nop>
-map <left>     <nop>
-map <right>    <nop>
-map <Del>      <nop>
-map <Home>     <nop>
-map <End>      <nop>
-map <PageUp>   <nop>
-map <PageDown> <nop>
-
-imap <up>       <nop>
-imap <down>     <nop>
-imap <left>     <nop>
-imap <right>    <nop>
-imap <Del>      <nop>
-imap <Home>     <nop>
-imap <End>      <nop>
-imap <PageUp>   <nop>
-imap <PageDown> <nop>
-
 " Markdown Underlining
 map <leader>1 YpVr=
 map <leader>2 YpVr-
